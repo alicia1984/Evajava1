@@ -5,10 +5,20 @@
  */
 package evajava1;
 
+import javax.swing.JOptionPane;
+
 /**
  *
- * @author LP 13
+ * @author LAB13
  */
-public class Ejercicio2 {
-    
-}
+public class Ejercicio2
+{
+     public static void main(String[] args)
+    {
+      int sueldo=0;
+      int horas=0;
+      int valor_hora=0;
+      
+      horas=Integer.parseInt(JOptionPane.showInputDialog("Ingrese las horas trabajada"));
+      
+      valor_hora=Integer.parseInt(JOptionPane.showInputDialog("Ingrese el valor por horas trabajadas"));
